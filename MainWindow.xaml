@@ -1,0 +1,120 @@
+﻿<Window x:Class="MicrosoftTODO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MicrosoftTODO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel Width="200"
+                    HorizontalAlignment="Left"
+                    Background="#fff">
+            <Grid Height="321">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="img/Group 1.png" Grid.Row="0" 
+                       HorizontalAlignment="Left"
+                       Margin="6"/>
+                <Image Source="img/search (1).png" Grid.Row="0"  Grid.Column="2"
+                       HorizontalAlignment="Left"
+                       Margin="6"/>
+                <Label Grid.ColumnSpan="3" BorderThickness="0 0 0 0.5"
+                       BorderBrush="LightGray"/>
+                <TextBlock Text="Cường đẹp trai" Grid.Column="1" 
+                           VerticalAlignment="Center"
+                           FontWeight="Light"/>
+                <Image Source="img/sun.png" Grid.Row="1" Margin="6"/>
+                <TextBlock Text="My Day" FontWeight="Light" 
+                           Grid.Row="1" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/home.png" Grid.Row="2" Margin="6"/>
+                <TextBlock Text="To - Do" FontWeight="Light" 
+                           Grid.Row="2" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="3" Margin="6"/>
+                <TextBlock Text="Work" FontWeight="Light" 
+                           Grid.Row="3" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="4" Margin="6"/>
+                <TextBlock Text="Poli Ideas" FontWeight="Light" 
+                           Grid.Row="4" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="5" Margin="6"/>
+                <TextBlock Text="Techinch" FontWeight="Light" 
+                           Grid.Row="5" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="6" Margin="6"/>
+                <TextBlock Text="A litle, importaint list" FontWeight="Light" 
+                           Grid.Row="6" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="7" Margin="6"/>
+                <TextBlock Text="New list" FontWeight="Light" 
+                           Grid.Row="7" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="8" Margin="6"/>
+                <TextBlock Text="Q2 Redesign" FontWeight="Light" 
+                           Grid.Row="8" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/list.png" Grid.Row="9" Margin="6"/>
+                <TextBlock Text="Zapbook" FontWeight="Light" 
+                           Grid.Row="9" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+                <Image Source="img/Add.png" Grid.Row="10" Margin="9"/>
+                <TextBlock Text="New list" Foreground="#00b0e9" 
+                           Grid.Row="10" Grid.Column="1"
+                           VerticalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+
+        <Border>
+
+            <Border.Background>
+                <ImageBrush ImageSource="img/background_02.png" Stretch="UniformToFill"/>
+            </Border.Background>
+            <StackPanel>
+                <StackPanel Margin="10 20 0 0">
+                    <Label Content="Suggetion" FontSize="30"
+                           FontWeight="Light"
+                           Foreground="#fff"/>
+                </StackPanel>
+                <DockPanel Margin="12 0 0 0">
+                    <Label Content="Friday, Aprill 21" FontSize="15"
+                           FontWeight="Light"
+                           Foreground="#fff"/>
+                    <Border CornerRadius="5"  Width="70" Height="30"
+                               HorizontalAlignment="Right" Margin="0 0 20 0" Background="#00b0e9">
+                        <Label Content="Done" Foreground="#fff" FontWeight="Bold"
+                               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </Border>
+                    
+                </DockPanel>
+                <Border Background="#fff" CornerRadius="10">
+                    <DockPanel>
+                        
+                    </DockPanel>
+                   
+                </Border>
+                
+            </StackPanel>
+           
+        </Border>
+
+    </DockPanel>
+</Window>
