@@ -95,7 +95,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\background.jpg" />
     <Resource Include="img\background_02.png" />
   </ItemGroup>
   <ItemGroup>
@@ -119,7 +118,21 @@
     <Resource Include="img\search %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\Add.png" />
+    <Resource Include="img\add02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\View02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\Invalid.png" />
+    <Resource Include="img\Valid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\Invalid02.png" />
+    <Resource Include="img\Valid02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\Clock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
